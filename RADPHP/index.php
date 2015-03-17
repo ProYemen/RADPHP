@@ -7,13 +7,18 @@ and open the template in the editor.
 <html>
     <head>
         <meta charset="UTF-8">
-        <title></title>
+        <title>Home</title>
     </head>
     <body>
         <h1>
-        <?php
-        echo " welcome to RADPHP";
-        ?>
+            <p>Welcome in RADPHP </p>
+            <p>
+                <a href="./lib/conMysql.php">Connect with database .</a>
+            </p>
+            <p>
+                <a href="./CreateForm.php">Show Tables .</a>
+            </p>
+             
         </h1>
     </body>
 </html>
